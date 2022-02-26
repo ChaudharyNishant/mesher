@@ -28,9 +28,9 @@ function BottomNavigationBar() {
   return (
     <>
     <BottomNavigation value={value} onChange={handleChange} className={classes.root}>
-      <BottomNavigationAction component={Link} to="/" label="Wallpapers" value="home" icon={<DashboardIcon />} />
-      <BottomNavigationAction component={Link} to="/search" label="Search" value="search" icon={<SearchIcon />} />
-      <BottomNavigationAction component={Link} to="/info" label="Info" value="info" icon={<InfoIcon />} />
+      <BottomNavigationAction component={Link} to="/meshers/" label="Wallpapers" value="home" icon={<DashboardIcon />} />
+      <BottomNavigationAction component={Link} to="/meshers/search" label="Search" value="search" icon={<SearchIcon />} />
+      <BottomNavigationAction component={Link} to="/meshers/info" label="Info" value="info" icon={<InfoIcon />} />
     </BottomNavigation>
     </>
   );

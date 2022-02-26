@@ -14,27 +14,27 @@ function App() {
     <div>
         <HeaderAppBar />
         <Switch>
-        <Route exact path='/' 
+        <Route exact path='/meshers/' 
         render={() => 
         <div>
           <WallpapersComponent />
         </div> 
         } />
-        <Route path='/#/:name' component={FullscreenView}/>
-        <Route exact path='/search' 
+        <Route path='/meshers/#/:name' component={FullscreenView}/>
+        <Route exact path='/meshers/search' 
         render={() => 
         <div>
             <SearchBar />
             <WallpapersComponent />
         </div> 
         } />
-        <Route exact path='/info' 
+        <Route exact path='/meshers/info' 
         render={() => 
         <div>
             <InfoPage />
         </div> 
         } />
-        <Route path="/404" component={NotFound}/>
+        <Route path="/meshers/404" component={NotFound}/>
         <Redirect to="404" />
         </Switch>
         <BottomNavigationBar />

@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/meshers/static/css/main.c842291f.chunk.css",
-    "main.js": "/meshers/static/js/main.77f7b3e2.chunk.js",
-    "main.js.map": "/meshers/static/js/main.77f7b3e2.chunk.js.map",
-    "runtime-main.js": "/meshers/static/js/runtime-main.2f9b4d5a.js",
-    "runtime-main.js.map": "/meshers/static/js/runtime-main.2f9b4d5a.js.map",
-    "static/js/2.f335db1a.chunk.js": "/meshers/static/js/2.f335db1a.chunk.js",
-    "static/js/2.f335db1a.chunk.js.map": "/meshers/static/js/2.f335db1a.chunk.js.map",
-    "index.html": "/meshers/index.html",
-    "precache-manifest.87169c1b9f0ecf968ed8324174a9f70b.js": "/meshers/precache-manifest.87169c1b9f0ecf968ed8324174a9f70b.js",
-    "service-worker.js": "/meshers/service-worker.js",
-    "static/css/main.c842291f.chunk.css.map": "/meshers/static/css/main.c842291f.chunk.css.map",
-    "static/js/2.f335db1a.chunk.js.LICENSE.txt": "/meshers/static/js/2.f335db1a.chunk.js.LICENSE.txt",
-    "static/media/Icon.png": "/meshers/static/media/Icon.660f500a.png",
-    "static/media/woof.png": "/meshers/static/media/woof.296bde98.png"
+    "main.css": "/mesher/static/css/main.c842291f.chunk.css",
+    "main.js": "/mesher/static/js/main.7c68c54d.chunk.js",
+    "main.js.map": "/mesher/static/js/main.7c68c54d.chunk.js.map",
+    "runtime-main.js": "/mesher/static/js/runtime-main.0a585d92.js",
+    "runtime-main.js.map": "/mesher/static/js/runtime-main.0a585d92.js.map",
+    "static/js/2.f335db1a.chunk.js": "/mesher/static/js/2.f335db1a.chunk.js",
+    "static/js/2.f335db1a.chunk.js.map": "/mesher/static/js/2.f335db1a.chunk.js.map",
+    "index.html": "/mesher/index.html",
+    "precache-manifest.48a928aa62b7685b02e7086cb2aed8c5.js": "/mesher/precache-manifest.48a928aa62b7685b02e7086cb2aed8c5.js",
+    "service-worker.js": "/mesher/service-worker.js",
+    "static/css/main.c842291f.chunk.css.map": "/mesher/static/css/main.c842291f.chunk.css.map",
+    "static/js/2.f335db1a.chunk.js.LICENSE.txt": "/mesher/static/js/2.f335db1a.chunk.js.LICENSE.txt",
+    "static/media/Icon.png": "/mesher/static/media/Icon.660f500a.png",
+    "static/media/woof.png": "/mesher/static/media/woof.296bde98.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2f9b4d5a.js",
+    "static/js/runtime-main.0a585d92.js",
     "static/js/2.f335db1a.chunk.js",
     "static/css/main.c842291f.chunk.css",
-    "static/js/main.77f7b3e2.chunk.js"
+    "static/js/main.7c68c54d.chunk.js"
   ]
 }

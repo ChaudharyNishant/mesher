@@ -1,5 +1,5 @@
 module.exports = { 
-    AppName : 'Meshers', 
+    AppName : 'mesher', 
     AppVersion : 'v1', 
     primaryTheme : 'light',
 

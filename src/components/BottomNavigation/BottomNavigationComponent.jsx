@@ -19,7 +19,7 @@ const currDir = window.location.pathname.slice(1);
 
 function BottomNavigationBar() {
   const classes = useStyles();
-  const [value, setValue] = React.useState(currDir ? (currDir === 'meshers/' ? 'home' : currDir) : 'home');
+  const [value, setValue] = React.useState(currDir ? (currDir === 'mesher/' ? 'home' : currDir) : 'home');
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -28,9 +28,9 @@ function BottomNavigationBar() {
   return (
     <>
     <BottomNavigation value={value} onChange={handleChange} className={classes.root}>
-      <BottomNavigationAction component={Link} to="/meshers/" label="wallpapers" value="home" icon={<DashboardIcon />} />
-      <BottomNavigationAction component={Link} to="/meshers/search" label="search" value="search" icon={<SearchIcon />} />
-      <BottomNavigationAction component={Link} to="/meshers/info" label="info" value="info" icon={<InfoIcon />} />
+      <BottomNavigationAction component={Link} to="/mesher/" label="wallpapers" value="home" icon={<DashboardIcon />} />
+      <BottomNavigationAction component={Link} to="/mesher/search" label="search" value="search" icon={<SearchIcon />} />
+      <BottomNavigationAction component={Link} to="/mesher/info" label="info" value="info" icon={<InfoIcon />} />
     </BottomNavigation>
     </>
   );

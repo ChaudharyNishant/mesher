@@ -4,8 +4,8 @@ module.exports = {
     primaryTheme : 'light',
 
     // WALLPAPER LIST STYLING
-    wallpaperBorderRadius: 8,
-    wallpaperMargin: 4,
+    wallpaperBorderRadius: 16,
+    wallpaperMargin: 8,
     
     // DARK THEME COLORS
     primaryAccentDark: '#1aebb3',

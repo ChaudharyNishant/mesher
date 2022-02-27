@@ -5,7 +5,7 @@ import Grid from '@material-ui/core/Grid';
 import Card from '@material-ui/core/Card';
 import Chip from '@material-ui/core/Chip';
 import CardContent from '@material-ui/core/CardContent';
-import GridListTileBar from '@material-ui/core/GridListTileBar';
+import ImageListItemBar from '@material-ui/core/ImageListItemBar';
 import wallpaperList from './wallpaperList';
 import uuid from 'react-uuid';
 import { wallpaperMargin, wallpaperBorderRadius } from '../../AppConfig';
@@ -19,9 +19,9 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'space-around',
     overflow: 'hidden',
     backgroundColor: theme.palette.background.paper,
-    paddingBottom: '120px',
+    paddingBottom: '48px',
     margin: wallpaperMargin+'px',
-    marginTop: '-6px'
+    marginTop: '-18px'
   },
   gridList: {
     width: '100%',
@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
     objectFit: 'cover'
   },
   gridListTileBar: {
-    background: 'linear-gradient(to top, rgba(0,0,0,0.75), rgba(0,0,0,0))',
+    background: 'linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0))',
     width: '100%',
     height: '100%',
     textAlign: 'bottom',
@@ -52,13 +52,23 @@ const useStyles = makeStyles((theme) => ({
     bottom: '0px'
   },
   gridListTileBarTitle: {
-    marginBottom: '24px',
+    // background: 'linear-gradient(to top, rgba(0,0,0,0.25), rgba(0,0,0,0.25))',
+    marginLeft: '0px',
+    marginBottom: '16px',
     bottom: '0px',
     position: 'absolute',
     whiteSpace: 'nowrap',
-    width: '80%',
+    maxWidth: '84%',
     overflow: 'hidden',
-    textOverflow: 'ellipsis'
+    textOverflow: 'ellipsis',
+    paddingTop: '4px',
+    paddingBottom: '4px',
+    paddingLeft: '20px',
+    paddingRight: '20px',
+    borderRadius: '100px',
+    color: theme.palette.secondary.text,
+    backgroundColor: theme.palette.background.default,
+    textTransform: "lowercase"
   },
   gridListTileBarSubtitle: {
     color: 'rgba(255,255,255,0.75)',
@@ -105,13 +115,13 @@ const classes = useStyles();
   return (
     <div className={classes.root}>
       <Grid container className={classes.gridList}>
-        <div className={classes.chipContainer}>{distinctCollections.map((item) => <Chip onClick={() => setFilter(item) & setCurrentFilter(item)} key={uuid()} label={item} className={classes.collectionChip} color={item === updateFilter ? 'primary' : 'secondary'} />)}</div>
+        {/* <div className={classes.chipContainer}>{distinctCollections.map((item) => <Chip onClick={() => setFilter(item) & setCurrentFilter(item)} key={uuid()} label={item} className={classes.collectionChip} color={item === updateFilter ? 'primary' : 'secondary'} />)}</div> */}
         {wallpaperList.filter((tile) => tile.collections.includes(updateFilter)).map((tile) => (
           <Grid item xs={6} sm={4} md={3} lg={2} key={tile.url} className="searchContent">
             <Card align="center" className={classes.gridElement}>
             <img src={tile.thumbnail} alt={tile.name} className={classes.gridElementImage} />
             <CardContent component={Link} to={{ pathname: '/meshers/#/'+tile.name, state: { name: tile.name, url: tile.url, thumb: previewQuality[0] === 'true' ? tile.thumbnail : tile.url} }}>
-            <GridListTileBar
+            <ImageListItemBar
               align={'left'}
               className={classes.gridListTileBar}
               title={<span className={classes.gridListTileBarTitle}>{tile.name}</span>}

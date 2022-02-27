@@ -1,7 +1,7 @@
-import { createMuiTheme } from '@material-ui/core/styles';
+import { createTheme } from '@material-ui/core/styles';
 import { primaryAccentDark, primaryAccentTextDark, secondaryAccentDark, secondaryAccentTextDark, backgroundDark, themeDark } from '../AppConfig';
 // Dark theme
-const theme = createMuiTheme({
+const theme = createTheme({
   palette: {
     type: 'dark',
     primary: {
@@ -10,7 +10,8 @@ const theme = createMuiTheme({
     },
     secondary: {
       main: secondaryAccentDark,
-      AccentText: secondaryAccentTextDark
+      AccentText: secondaryAccentTextDark,
+      text: secondaryAccentDark
     },
     background: {
       default: backgroundDark,

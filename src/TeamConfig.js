@@ -24,20 +24,33 @@ const teamInfo = [
         "linkThreeTitle": "Play Store",
         "linkFour": "",
         "linkFourTitle": ""
+    },
+    {
+        "name": "Gautham",
+        "info": "Creator of Mesh Gradient plugin for Figma",
+        "profileImage": "",
+        "linkOne": "https://www.figma.com/@gautham",
+        "linkOneTitle": "Figma",
+        "linkTwo": "https://twitter.com/GuamHat",
+        "linkTwoTitle": "Twitter",
+        "linkThree": "https://github.com/gsajith",
+        "linkThreeTitle": "GitHub",
+        "linkFour": "",
+        "linkFourTitle": ""
+    },
+    {
+        "name": "Pepper Dashboard",
+        "info": "Open Source React Dashboard for Wallpapers",
+        "profileImage": "https://raw.githubusercontent.com/undefyned/pepper/master/public/logo512.png",
+        "linkOne": "https://github.com/undefyned/pepper",
+        "linkOneTitle": "GitHub",
+        "linkTwo": "",
+        "linkTwoTitle": "",
+        "linkThree": "",
+        "linkThreeTitle": "",
+        "linkFour": "",
+        "linkFourTitle": ""
     }
-    // {
-    //     "name": "Gautham",
-    //     "info": "Creator of Mesh Gradient plugin for Figma",
-    //     "profileImage": "",
-    //     "linkOne": "https://www.figma.com/@gautham",
-    //     "linkOneTitle": "Figma",
-    //     "linkTwo": "https://twitter.com/GuamHat",
-    //     "linkTwoTitle": "Twitter",
-    //     "linkThree": "https://github.com/gsajith",
-    //     "linkThreeTitle": "GitHub",
-    //     "linkFour": "",
-    //     "linkFourTitle": ""
-    // }
     // Add additional sections here
 ]
 

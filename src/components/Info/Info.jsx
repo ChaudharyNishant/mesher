@@ -35,7 +35,7 @@ function Temp() {
   const classes = useStyles();
 
   return (
-      <Grid container justify="center">
+      <Grid container justifyContent="center">
         <Grid item xs={12} sm={6} md={6} lg={6}>
           <List component={ Card } variant="outlined" className={classes.card}>
             <ListItem alignItems="flex-start">

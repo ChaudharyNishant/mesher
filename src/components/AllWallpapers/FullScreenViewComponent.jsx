@@ -55,8 +55,8 @@ function FullscreenView() {
     <div className={classes.root}>
         <Paper className={classes.fullscreenBody}><img className={classes.fullscreenImage} src={data.state.thumb} alt={data.state.name} /></Paper>
         <div className={classes.closeButton}>
-          <Fab onClick={() => history.goBack()} variant="round" size="medium" color="secondary"><CloseTwo /></Fab>&emsp;
-          <Fab href={data.state.url} aria-label={`download ${data.state.name}`} variant="round" size="medium" color="primary" download={data.state.name +'.png'}><GetWallpaper /></Fab>
+          <Fab onClick={() => history.goBack()} variant="circular" size="medium" color="secondary"><CloseTwo /></Fab>&emsp;
+          <Fab href={data.state.url} aria-label={`download ${data.state.name}`} variant="circular" size="medium" color="primary" download={data.state.name +'.png'}><GetWallpaper /></Fab>
           </div>
     </div>
   );

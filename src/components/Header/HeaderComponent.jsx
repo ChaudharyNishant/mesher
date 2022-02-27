@@ -29,7 +29,7 @@ function HeaderAppBar(props) {
       <ElevationScroll {...props}>
         <AppBar color="inherit">
           <Toolbar variant="dense" style={{width: '100%'}}>
-            <Typography variant="h6">{AppName}</Typography>
+            <Typography variant="h6" style={{textTransform: "lowercase"}}>{AppName}</Typography>
             <ScrollToTop />
           </Toolbar>
         </AppBar>

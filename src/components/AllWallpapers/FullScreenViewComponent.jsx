@@ -27,8 +27,10 @@ const useStyles = makeStyles((theme) => ({
       zIndex: '99999999999'
   },
   fullscreenImage: {
-      width: 'auto',
-      height: '100%',
+      // width: 'auto',
+      maxWidth: '100vw',
+      // height: '100%',
+      maxHeight: '100vh',
       objectPosition: 'center',
       objectFit: 'cover'
   },

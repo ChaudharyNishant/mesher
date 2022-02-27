@@ -1,165 +1,214 @@
 const wallpaperList = [
-    {
-        "author": "Clark Van Der Beken - Unsplash",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/24_clark-van-der-beken-MQzSZ5BkjAg-unsplash.jpg",
-        "name": "TooWenty_24",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_24_clark-van-der-beken-MQzSZ5BkjAg-unsplash.jpg",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    },
-    {
-        "author": "Nick Collins - Pexels",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/23_pexels-nick-collins-1293120.jpg",
-        "name": "TooWenty_23",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_23_pexels-nick-collins-1293120.jpg",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    },
-    {
-        "author": "Eberhard Grossgasteiger - Unsplash",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/22_eberhard-grossgasteiger-nqYbkm8Wg_I-unsplash.jpg",
-        "name": "TooWenty_22",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_22_eberhard-grossgasteiger-nqYbkm8Wg_I-unsplash.jpg",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    },
-    {
-        "author": "Mona Eendra - Unsplash",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/21_mona-eendra-vC8wj_Kphak-unsplash.jpg",
-        "name": "TooWenty_21",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_21_mona-eendra-vC8wj_Kphak-unsplash.jpg",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    },
-    {
-        "author": "Yuiizaa September - Unsplash",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/20_yuiizaa-september-orYix9zFUZo-unsplash.jpg",
-        "name": "TooWenty_20",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_20_yuiizaa-september-orYix9zFUZo-unsplash.jpg",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    },
-    {
-        "author": "Sharon Wright - Unsplash",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/19_sharon-wright-74XTZA0i2Q4-unsplash.jpg",
-        "name": "TooWenty_19",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_19_sharon-wright-74XTZA0i2Q4-unsplash.jpg",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    },
-    {
-        "author": "Nishant Chaudhary",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/18_Too%20Rects%20Wall.png",
-        "name": "TooWenty_18",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_18_Too%20Rects%20Wall.png",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    },
-    {
-        "author": "Martin Sanchez - Unsplash",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/17_martin-sanchez-LP697oLPxYE-unsplash.jpg",
-        "name": "TooWenty_17",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_17_martin-sanchez-LP697oLPxYE-unsplash.jpg",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    },
-    {
-        "author": "Nishant Chaudhary",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/16_Too%20Neomorphic%20Wall%20-%20Light.png",
-        "name": "TooWenty_16",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_16_Too%20Neomorphic%20Wall%20-%20Light.png",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    },
-    {
-        "author": "Nishant Chaudhary",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/15_Too%20Neomorphic%20Wall%20-%20Dark.png",
-        "name": "TooWenty_15",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_15_Too%20Neomorphic%20Wall%20-%20Dark.png",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    },
-    {
-        "author": "Kelly Sikkema - Unsplash",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/13_kelly-sikkema-tk9RQCq5eQo-unsplash.jpg",
-        "name": "TooWenty_13",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_13_kelly-sikkema-tk9RQCq5eQo-unsplash.jpg",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    },
-    {
-        "author": "Adrien Olichon - Unsplash",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/12_adrien-olichon-_GH9LwhlSO4-unsplash.jpg",
-        "name": "TooWenty_12",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_12_adrien-olichon-_GH9LwhlSO4-unsplash.jpg",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    },
-    {
-        "author": "Ryan Stone - Unsplash",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/11_ryan-stone-PXjtbumuJKs-unsplash.jpg",
-        "name": "TooWenty_11",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_11_ryan-stone-PXjtbumuJKs-unsplash.jpg",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    },
-    {
-        "author": "Sergio Souza - Unsplash",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/10_sergio-souza-9zL2x2TzE44-unsplash.jpg",
-        "name": "TooWenty_10",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_10_sergio-souza-9zL2x2TzE44-unsplash.jpg",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    },
-    {
-        "author": "Daniel Jerico - Unsplash",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/09_daniel-jerico-t8dqoJ0iMtk-unsplash.jpg",
-        "name": "TooWenty_09",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_09_daniel-jerico-t8dqoJ0iMtk-unsplash.jpg",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    },
-    {
-        "author": "Jeremy Bishop - Unsplash",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/08_jeremy-bishop-G9i_plbfDgk-unsplash.jpg",
-        "name": "TooWenty_08",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_08_jeremy-bishop-G9i_plbfDgk-unsplash.jpg",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    },
-    {
-        "author": "Matthew Mcbrayer - Unsplash",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/07_matthew-mcbrayer-qD9xzm7yK9U-unsplash.jpg",
-        "name": "TooWenty_07",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_07_matthew-mcbrayer-qD9xzm7yK9U-unsplash.jpg",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    },
-    {
-        "author": "Damiano Baschiera - Unsplash",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/06_damiano-baschiera-8utUgdTsL8A-unsplash.jpg",
-        "name": "TooWenty_06",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_06_damiano-baschiera-8utUgdTsL8A-unsplash.jpg",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    },
-    {
-        "author": "Pawel Czerwinski - Unsplash",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/05_pawel-czerwinski-xWSUI7tpiTY-unsplash.jpg",
-        "name": "TooWenty_05",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_05_pawel-czerwinski-xWSUI7tpiTY-unsplash.jpg",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    },
-    {
-        "author": "Nishant Chaudhary",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/04_Too%20Chars%20Wall.png",
-        "name": "TooWenty_04",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_04_Too%20Chars%20Wall.png",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    },
-    {
-        "author": "Teemu Paananen - Unsplash",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/03_teemu-paananen-OOE4xAnBhKo-unsplash.jpg",
-        "name": "TooWenty_03",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_03_teemu-paananen-OOE4xAnBhKo-unsplash.jpg",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    },
-    {
-        "author": "Social Cut - Unsplash",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/02_s-o-c-i-a-l-c-u-t-gREi-9tI5Mg-unsplash.jpg",
-        "name": "TooWenty_02",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_02_s-o-c-i-a-l-c-u-t-gREi-9tI5Mg-unsplash.jpg",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    },
-    {
-        "author": "Andrew Ridley - Unsplash",
-        "url": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Originals/01_andrew-ridley-jR4Zf-riEjI-unsplash.jpg",
-        "name": "TooWenty_01",
-        "thumbnail": "https://raw.githubusercontent.com/ChaudharyNishant/TooWenty/main/Thumbnails/thumb_01_andrew-ridley-jR4Zf-riEjI-unsplash.jpg",
-        "collections": "ALL,GRADIENT,MESH,MINIMAL"
-    }
+{
+    "name": "30.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/walls/30.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/30.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "29.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/29.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/29.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "28.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/28.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/28.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "27.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/27.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/27.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "26.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/26.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/26.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "25.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/25.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/25.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "24.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/24.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/24.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "23.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/23.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/23.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "22.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/22.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/22.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "21.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/21.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/21.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "20.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/20.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/20.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "19.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/19.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/19.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "18.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/18.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/18.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "17.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/17.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/17.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "16.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/16.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/16.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "15.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/15.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/15.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "14.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/14.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/14.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "13.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/13.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/13.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "12.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/12.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/12.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "11.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/11.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/11.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "10.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/10.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/10.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "9.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/9.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/9.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "8.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/8.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/8.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "7.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/7.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/7.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "6.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/6.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/6.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "5.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/5.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/5.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "4.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/4.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/4.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "3.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/3.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/3.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "2.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/2.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/2.png",
+    "collections": "ALL,MESH,GRADIENT"
+},
+{
+    "name": "1.png",
+    "author": "",
+    "url": "https://chaudharynishant.github.io/meshers/main/walls/1.png",
+    "thumbnail": "https://chaudharynishant.github.io/meshers/main/thumb/1.png",
+    "collections": "ALL,MESH,GRADIENT"
+}
 ]
 
 export default wallpaperList;

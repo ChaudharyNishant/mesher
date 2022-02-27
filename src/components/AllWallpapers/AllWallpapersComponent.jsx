@@ -110,7 +110,7 @@ const classes = useStyles();
           <Grid item xs={6} sm={4} md={3} lg={2} key={tile.url} className="searchContent">
             <Card align="center" className={classes.gridElement}>
             <img src={tile.thumbnail} alt={tile.name} className={classes.gridElementImage} />
-            <CardContent component={Link} to={{ pathname: '/#/'+tile.name, state: { name: tile.name, url: tile.url, thumb: previewQuality[0] === 'true' ? tile.thumbnail : tile.url} }}>
+            <CardContent component={Link} to={{ pathname: '/meshers/#/'+tile.name, state: { name: tile.name, url: tile.url, thumb: previewQuality[0] === 'true' ? tile.thumbnail : tile.url} }}>
             <GridListTileBar
               align={'left'}
               className={classes.gridListTileBar}

@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
     paddingBottom: '48px',
     margin: wallpaperMargin+'px',
-    marginTop: '-18px'
+    marginTop: '-14px'
   },
   gridList: {
     width: '100%',

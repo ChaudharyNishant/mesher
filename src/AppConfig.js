@@ -8,7 +8,7 @@ module.exports = {
     wallpaperMargin: 8,
     
     // DARK THEME COLORS
-    primaryAccentDark: '#1aebb3',
+    primaryAccentDark: '#00bbf9',
     primaryAccentTextDark: '#000000',
     secondaryAccentDark: '#ffffff',
     secondaryAccentTextDark: '#000000',
@@ -16,7 +16,7 @@ module.exports = {
     themeDark: '#121212', //Keep this as close to the background, if not same
 
     // LIGHT THEME COLORS
-    primaryAccentLight: '#2679ff',
+    primaryAccentLight: '#00bbf9',
     primaryAccentTextLight: '#ffffff',
     secondaryAccentLight: '#000000',
     secondaryAccentTextLight: '#ffffff',

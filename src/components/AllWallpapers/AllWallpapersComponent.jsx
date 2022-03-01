@@ -115,7 +115,7 @@ const classes = useStyles();
   return (
     <div className={classes.root}>
       <Grid container className={classes.gridList}>
-        {/* <div className={classes.chipContainer}>{distinctCollections.map((item) => <Chip onClick={() => setFilter(item) & setCurrentFilter(item)} key={uuid()} label={item} className={classes.collectionChip} color={item === updateFilter ? 'primary' : 'secondary'} />)}</div> */}
+        <div className={classes.chipContainer}>{distinctCollections.map((item) => <Chip onClick={() => setFilter(item) & setCurrentFilter(item)} key={uuid()} label={item} className={classes.collectionChip} color={item === updateFilter ? 'primary' : 'secondary'} />)}</div>
         {wallpaperList.filter((tile) => tile.collections.includes(updateFilter)).map((tile) => (
           <Grid item xs={6} sm={4} md={3} lg={2} key={tile.url} className="searchContent">
             <Card align="center" className={classes.gridElement}>
